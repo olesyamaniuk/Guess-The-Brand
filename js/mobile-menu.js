@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const menuBtnRef = document.querySelector("[data-menu-button]");
-  const navListRef = document.querySelector(".logo-navigation-list");
-  const headerRef = document.querySelector(".logo-header");
-  const navigationRef = document.querySelector(".logo-navigation");
+  const navListRef = document.querySelector(".quiz-navigation-list");
+  const headerRef = document.querySelector(".quiz-header");
+  const navigationRef = document.querySelector(".quiz-navigation");
 
   menuBtnRef.addEventListener("click", () => {
     menuBtnRef.classList.toggle("is-open");

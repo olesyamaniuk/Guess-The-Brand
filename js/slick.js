@@ -1,5 +1,5 @@
 $(function () {
-  $(".logo-gallery-list").slick({
+  $(".quiz-gallery-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -14,7 +14,7 @@ $(function () {
 });
 
 $(function () {
-  $(".logo-reviews-list").slick({
+  $(".quiz-reviews-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -25,7 +25,7 @@ $(function () {
 
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".logo-reviews-list-left",
-    nextArrow: ".logo-reviews-list-right",
+    prevArrow: ".quiz-reviews-list-left",
+    nextArrow: ".quiz-reviews-list-right",
   });
 });
